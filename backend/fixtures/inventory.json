@@ -1,0 +1,54 @@
+{
+  "flights_by_route": {
+    "SFO-ORD": [
+      {"flight_id": "FL-100-ALT1", "carrier": "United", "flight_number": "UA 814", "departure": "2026-08-03T11:00:00", "arrival": "2026-08-03T17:05:00", "cabin_class": "economy", "fare": 430.00, "seats_available": 6},
+      {"flight_id": "FL-100-ALT2", "carrier": "American", "flight_number": "AA 220", "departure": "2026-08-03T12:30:00", "arrival": "2026-08-03T18:40:00", "cabin_class": "economy", "fare": 465.00, "seats_available": 3},
+      {"flight_id": "FL-100-ALT3", "carrier": "United", "flight_number": "UA 902", "departure": "2026-08-03T14:00:00", "arrival": "2026-08-03T20:10:00", "cabin_class": "business", "fare": 890.00, "seats_available": 2},
+      {"flight_id": "FL-100-ALT4", "carrier": "Southwest", "flight_number": "WN 310", "departure": "2026-08-04T08:00:00", "arrival": "2026-08-04T14:05:00", "cabin_class": "economy", "fare": 399.00, "seats_available": 9}
+    ],
+    "JFK-ATL": [
+      {"flight_id": "FL-101-ALT1", "carrier": "Delta", "flight_number": "DL 460", "departure": "2026-08-03T09:15:00", "arrival": "2026-08-03T12:05:00", "cabin_class": "economy", "fare": 310.00, "seats_available": 5},
+      {"flight_id": "FL-101-ALT2", "carrier": "Delta", "flight_number": "DL 470", "departure": "2026-08-03T10:50:00", "arrival": "2026-08-03T13:40:00", "cabin_class": "economy", "fare": 340.00, "seats_available": 4},
+      {"flight_id": "FL-101-ALT3", "carrier": "JetBlue", "flight_number": "B6 501", "departure": "2026-08-03T13:20:00", "arrival": "2026-08-03T16:10:00", "cabin_class": "economy", "fare": 275.00, "seats_available": 7}
+    ],
+    "DFW-MIA": [
+      {"flight_id": "FL-102-ALT1", "carrier": "American", "flight_number": "AA 991", "departure": "2026-08-03T15:45:00", "arrival": "2026-08-03T19:30:00", "cabin_class": "business", "fare": 810.00, "seats_available": 2},
+      {"flight_id": "FL-102-ALT2", "carrier": "American", "flight_number": "AA 774", "departure": "2026-08-03T18:20:00", "arrival": "2026-08-03T22:05:00", "cabin_class": "economy", "fare": 520.00, "seats_available": 6},
+      {"flight_id": "FL-102-ALT3", "carrier": "American", "flight_number": "AA 1200", "departure": "2026-08-04T09:00:00", "arrival": "2026-08-04T12:45:00", "cabin_class": "business", "fare": 795.00, "seats_available": 3}
+    ]
+  },
+  "hotels_by_city": {
+    "ORD": [
+      {"hotel_id": "HT-200-ALT1", "name": "The Langham Chicago", "check_in": "2026-08-03T16:00:00", "rate_per_night": 289.00},
+      {"hotel_id": "HT-200-ALT2", "name": "Hyatt Regency O'Hare", "check_in": "2026-08-03T19:00:00", "rate_per_night": 210.00},
+      {"hotel_id": "HT-200-ALT3", "name": "Kimpton Gray Hotel", "check_in": "2026-08-03T21:00:00", "rate_per_night": 265.00},
+      {"hotel_id": "HT-200-ALT4", "name": "Hyatt Regency O'Hare (late arrival)", "check_in": "2026-08-04T00:00:00", "rate_per_night": 210.00}
+    ],
+    "ATL": [
+      {"hotel_id": "HT-201-ALT1", "name": "Atlanta Marriott Marquis", "check_in": "2026-08-03T15:00:00", "rate_per_night": 219.00},
+      {"hotel_id": "HT-201-ALT2", "name": "Grand Hyatt Atlanta", "check_in": "2026-08-03T17:00:00", "rate_per_night": 235.00}
+    ],
+    "MIA": [
+      {"hotel_id": "HT-202-ALT1", "name": "Fontainebleau Miami Beach", "check_in": "2026-08-03T17:30:00", "rate_per_night": 445.00},
+      {"hotel_id": "HT-202-ALT2", "name": "Fontainebleau Miami Beach (late arrival)", "check_in": "2026-08-03T22:30:00", "rate_per_night": 445.00},
+      {"hotel_id": "HT-202-ALT3", "name": "1 Hotel South Beach", "check_in": "2026-08-04T13:15:00", "rate_per_night": 520.00}
+    ]
+  },
+  "cars_by_city": {
+    "ORD": [
+      {"car_id": "CR-300-ALT1", "vendor": "Hertz", "pickup": "2026-08-03T16:30:00", "class": "midsize"},
+      {"car_id": "CR-300-ALT2", "vendor": "Hertz", "pickup": "2026-08-03T19:30:00", "class": "midsize"},
+      {"car_id": "CR-300-ALT3", "vendor": "Enterprise", "pickup": "2026-08-03T21:30:00", "class": "standard"},
+      {"car_id": "CR-300-ALT4", "vendor": "Hertz", "pickup": "2026-08-04T14:30:00", "class": "midsize"}
+    ],
+    "ATL": [
+      {"car_id": "CR-301-ALT1", "vendor": "Avis", "pickup": "2026-08-03T11:00:00", "class": "economy"},
+      {"car_id": "CR-301-ALT2", "vendor": "Budget", "pickup": "2026-08-03T13:45:00", "class": "economy"}
+    ],
+    "MIA": [
+      {"car_id": "CR-302-ALT1", "vendor": "National", "pickup": "2026-08-03T18:00:00", "class": "premium"},
+      {"car_id": "CR-302-ALT2", "vendor": "National", "pickup": "2026-08-03T23:00:00", "class": "premium"},
+      {"car_id": "CR-302-ALT3", "vendor": "Hertz", "pickup": "2026-08-04T13:45:00", "class": "full-size"}
+    ]
+  }
+}

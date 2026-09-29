@@ -1,0 +1,95 @@
+{
+  "PAX-1001": {
+    "pax_id": "PAX-1001",
+    "member_name": "Jordan Lee",
+    "flight": {
+      "flight_id": "FL-100",
+      "carrier": "United",
+      "flight_number": "UA 812",
+      "origin": "SFO",
+      "destination": "ORD",
+      "departure": "2026-08-03T09:15:00",
+      "arrival": "2026-08-03T15:20:00",
+      "cabin_class": "economy",
+      "fare": 412.00
+    },
+    "hotel": {
+      "hotel_id": "HT-200",
+      "name": "The Langham Chicago",
+      "city": "ORD",
+      "check_in": "2026-08-03T16:00:00",
+      "check_out": "2026-08-06T11:00:00",
+      "rate_per_night": 289.00
+    },
+    "car": {
+      "car_id": "CR-300",
+      "vendor": "Hertz",
+      "city": "ORD",
+      "pickup": "2026-08-03T16:30:00",
+      "dropoff": "2026-08-06T10:00:00",
+      "class": "midsize"
+    }
+  },
+  "PAX-1002": {
+    "pax_id": "PAX-1002",
+    "member_name": "Priya Nair",
+    "flight": {
+      "flight_id": "FL-101",
+      "carrier": "Delta",
+      "flight_number": "DL 455",
+      "origin": "JFK",
+      "destination": "ATL",
+      "departure": "2026-08-03T07:40:00",
+      "arrival": "2026-08-03T10:35:00",
+      "cabin_class": "economy",
+      "fare": 298.00
+    },
+    "hotel": {
+      "hotel_id": "HT-201",
+      "name": "Atlanta Marriott Marquis",
+      "city": "ATL",
+      "check_in": "2026-08-03T15:00:00",
+      "check_out": "2026-08-05T11:00:00",
+      "rate_per_night": 219.00
+    },
+    "car": {
+      "car_id": "CR-301",
+      "vendor": "Avis",
+      "city": "ATL",
+      "pickup": "2026-08-03T11:00:00",
+      "dropoff": "2026-08-05T09:00:00",
+      "class": "economy"
+    }
+  },
+  "PAX-1003": {
+    "pax_id": "PAX-1003",
+    "member_name": "Marcus Chen",
+    "flight": {
+      "flight_id": "FL-102",
+      "carrier": "American",
+      "flight_number": "AA 990",
+      "origin": "DFW",
+      "destination": "MIA",
+      "departure": "2026-08-03T13:05:00",
+      "arrival": "2026-08-03T16:50:00",
+      "cabin_class": "business",
+      "fare": 780.00
+    },
+    "hotel": {
+      "hotel_id": "HT-202",
+      "name": "Fontainebleau Miami Beach",
+      "city": "MIA",
+      "check_in": "2026-08-03T17:30:00",
+      "check_out": "2026-08-07T11:00:00",
+      "rate_per_night": 445.00
+    },
+    "car": {
+      "car_id": "CR-302",
+      "vendor": "National",
+      "city": "MIA",
+      "pickup": "2026-08-03T18:00:00",
+      "dropoff": "2026-08-07T10:00:00",
+      "class": "premium"
+    }
+  }
+}
